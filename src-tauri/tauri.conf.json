@@ -1,6 +1,6 @@
 {
     "package": {
-        "productName": "Test",
+        "productName": "Game",
         "version": "0.0.1"
     },
     "tauri": {
