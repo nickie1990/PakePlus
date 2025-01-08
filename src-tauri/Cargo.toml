@@ -1,5 +1,5 @@
 [package]
-name = "Test"
+name = "Game"
 version = "0.0.1"
 description = ""
 authors = ["1024xiaoshen"]
@@ -11,7 +11,7 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = [ "os-all", "path-all", "protocol-all", "dialog-all", "clipboard-all", "fs-all", "http-all", "window-all", "shell-open", "devtools"] }
+tauri = { version = "1", features = [ "os-all", "path-all", "protocol-all", "dialog-all", "clipboard-all", "fs-all", "http-all", "window-all", "shell-open"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 base64 = "0.22.1"
